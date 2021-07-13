@@ -31,7 +31,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "auth-sdk",
+  "name": "@meta-network/auth-sdk",
   "author": "Frank Wei",
   "module": "dist/auth-sdk.esm.js",
   "size-limit": [
