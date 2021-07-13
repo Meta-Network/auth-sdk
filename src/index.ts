@@ -9,3 +9,5 @@ export const verify = (token: string, audienceId: string, publicKey = PUBLIC_KEY
   });
   return result;
 }
+
+export { PUBLIC_KEYS };
