@@ -1,5 +1,5 @@
 {
-  "version": "0.1.1",
+  "version": "0.2.3",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -31,8 +31,8 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "@meta-network/auth-sdk",
-  "author": "Frank Wei",
+  "name": "@metaio/auth-sdk",
+  "author": "Casimir Crystal",
   "module": "dist/auth-sdk.esm.js",
   "size-limit": [
     {
@@ -54,6 +54,7 @@
     "typescript": "^4.3.5"
   },
   "dependencies": {
+    "dotenv": "^10.0.0",
     "jsonwebtoken": "^8.5.1"
   }
 }

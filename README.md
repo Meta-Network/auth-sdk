@@ -1,6 +1,16 @@
 # Meta Network Auth SDK
 
 This SDK is written in TypeScript, so typing is good.
+
+## ENV
+
+There's two available environment variables you can set:
+
+- `PUBLIC_KEY_FILE_PATH`: A file path to public key file. If this is provided, API will only load the key from this file.
+- `NODE_ENV`: This indicates to load which public key from default constants, if no `PUBLIC_KEY_FILE_PATH` is provided.
+
+If no `NODE_ENV` is provided, use `DEVELOPMENT` public key as the default.
+
 ## API
 
 Currently, There is only one API exist. `verify()`.
